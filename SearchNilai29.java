@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class SearchNilai29 {
     public static void main(String[] args){
@@ -23,7 +24,7 @@ public class SearchNilai29 {
             }
         }
         if (!ditemukan){
-            System.out.println("Nilai " + key + " tidak ditemukan dalam array.");
+            System.out.println("Nilai yang dicari tidak ditemukan dalam array. Nilai: " + key);
         }
         input.close();
     }
